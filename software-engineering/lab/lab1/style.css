@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    width: 25%;
+    text-align: center;
+    font-size: medium;
+    border-spacing: 50px;
+}
+
+table tr td a {
+    font-size: xx-large;
+    text-decoration: none;
+    background-color: #4d66ca;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px black;
+}
+
+table tr td a:hover {
+    background-color: black;
+    color: #ffff00;
+}
