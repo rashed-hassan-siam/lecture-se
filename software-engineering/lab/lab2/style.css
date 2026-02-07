@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    border-spacing: 50px;
+}
+
+.button, .link, .submit {
+    font-size: xx-large;
+    text-decoration: none;
+    background-color: #4d66ca;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px black;
+}
+
+.button:hover, .link:hover, .submit:hover {
+    background-color: black;
+    color: #ffff00;
+}
+
+.formTable {
+    width: 10%;
+    text-align: left;
+    margin: auto;
+}
+
+.submit-center {
+    text-align: center;
+}
+

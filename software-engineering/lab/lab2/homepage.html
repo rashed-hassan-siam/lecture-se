@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>EU Grading System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>EU Grading System</h1>
+    <table>
+        <tr>
+            <td><a class="button" href="homepage.html">Home</a></td>
+            <td><a class="link" href="about_us.html">About Us</a></td>
+            <td><a class="submit" href="grades.html">Grades</a></td>
+        </tr>
+
+    </table>
+
+
+    <form action="" class="form">
+
+        <table class="formTable">
+            <tr>
+                <td><label for="email">Email: </label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password: </label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Choose your gender:</p>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Choose your courses:</p>
+                </td>
+                <td>
+                    <input type="checkbox" id="comp_fund" name="courses" value="comp_fund">
+                    <label for="comp_fund">Computer Fundamentals</label>
+                    <br>
+                    <input type="checkbox" id="soft_eng" name="courses" value="soft_eng">
+                    <label for="soft_eng">Software Engineering</label>
+                    <br>
+                    <input type="checkbox" id="data_st" name="courses" value="data_st">
+                    <label for="data_st">Data Structures</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="batch">Choose your batch: </label></td>
+                <td>
+                    <select name="batch" id="batch">
+                        <option>Select...</option>
+                        <option value="2234">2234</option>
+                        <option value="2324">2324</option>
+                        <option value="2414">2414</option>
+                        <option value="2424">2424</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="submit-center">
+                <td colspan="2"><input type="submit" value="Sign Up"></td>
+            </tr>
+        </table>
+
+    </form>
+
+
+
+</body>
+
+</html>
